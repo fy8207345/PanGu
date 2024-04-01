@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: PanGu
+pangu:
+  installation-path: D:\Program Files (x86)\Tencent\微信web开发者工具
+  root-path: ${project.basedir}
+logging:
+  level:
+    root: info
