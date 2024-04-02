@@ -6,7 +6,7 @@ import lombok.Setter;
 
 /**
  * 小程序项目配置
- * https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html
+ * <a href="https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html">...</a>
  */
 @Getter
 @Setter
@@ -64,29 +64,29 @@ public class ProjectConfig {
     /**
      * 打包配置选项
      */
-    private String packOptions;
+    private PackOptions packOptions;
     /**
      * 调试配置选项
      */
-    private String debugOptions;
+    private DebugOptions debugOptions;
     /**
      * 文件监听配置设置
      */
-    private String watchOptions;
+    private WatchOptions watchOptions;
     /**
      * 自定义预处理
      */
-    private String scripts;
+    private Scripts scripts;
     /**
      * 仅在小游戏项目中有效
      */
-    private String staticServerOptions;
+    private StaticServerOptions staticServerOptions;
     /**
      * 指定自动生成的文件的 tabIndent 和 tabSize
      */
-    private String editorSetting;
+    private EditorSettings editorSetting;
     /**
      * 骨架屏相关设置
      */
-    private String skeletonConfig;
+    private SkeletonConfig skeletonConfig;
 }
